@@ -18,13 +18,15 @@ A simple Python application with CI/CD pipeline using GitHub Actions and Docker.
 
 ## Docker Deployment
 
-Build the image
+Build the image:
+
     ```bash
     docker build -t hello-world-app .
-
-Run the container:
+```
+ Run the container:
    ```bash
    docker run hello-world-app
+```
 
 ## Summary
 
