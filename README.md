@@ -13,20 +13,20 @@ A simple Python application with CI/CD pipeline using GitHub Actions and Docker.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/hello-world-app.git
-   cd hello-world-app
+   git clone https://github.com/YOUR-USERNAME/full_dev_project.git
+   cd full_dev_project
 
 ## Docker Deployment
 
 ### Build the image:
 
     ```bash
-    docker build -t hello-world-app .
+    docker build -t full_dev_project .
 ```
  ### Run the container:
 
    ```bash
-   docker run hello-world-app
+   docker run full_dev_project
 ```
 
 ## Summary
