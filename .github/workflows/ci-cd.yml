@@ -31,6 +31,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build Docker image
-      run: docker build -t hello-world-app .
+      run: docker build -t full_dev_project .
     - name: Run container
-      run: docker run hello-world-app
+      run: docker run full_dev_project
